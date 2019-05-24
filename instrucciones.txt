@@ -1,0 +1,1 @@
+#python3 sqlrun q01.sql para ejecutar
