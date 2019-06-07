@@ -4,4 +4,8 @@
 ## en la tabla tbl1, para aquellos registros con c13 mayor
 ## a 400.
 ##
-
+select distinct K0, avg(c21) from tbl1
+left join tbl2 ON
+tbl1.k1 = tbl2.k1
+where c13 > '400'
+GROUP BY K0
